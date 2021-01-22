@@ -1,0 +1,23 @@
+{
+  "name": "wt-back",
+  "version": "1.0.0",
+  "description": "Backend for Contact List",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hector Alvarez",
+  "license": "ISC",
+  "devDependencies": {
+    "@prisma/cli": "^2.15.0",
+    "@types/cors": "^2.8.9",
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.22",
+    "ts-node": "^9.1.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^2.15.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
